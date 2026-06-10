@@ -1,0 +1,26 @@
+# Build outputs
+*.o
+*.d
+EdgeVisor/dllama
+EdgeVisor/src/nn/vulkan/*.spv
+
+# Runtime artifacts
+runtime_logs/
+test_logs/
+*.log
+*.pid
+
+# Local model/data directories
+models/
+*.m
+*.t
+*.gguf
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Editor/OS
+.DS_Store
